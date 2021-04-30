@@ -1,0 +1,35 @@
+The test environment is an important link between the development environment and the real production environment.
+“естова€ среда (test environment) €вл€етс€ важным св€зующим звеном между средой разработки и реальным рабочей средой.
+
+1) It consists of equipment (servers, work computer (s), etc.) and logical level components
+(server operating system, client operating system, database server, client user interface, web browser (browser) and others)
+ќна состоит из оборудовани€ (серверы, рабочий компьютер и т.д.) и компонентов логического уровн€
+(серверна€ операционна€ система, клиентска€ операционна€ система, сервер баз данных, клиентский пользовательский интерфейса,
+веб-браузер и другое).
+
+What is important is that the environment covers both client and server components and uses exactly the same
+software versions that are on the client, i.e. if possible similar to the working environment.
+¬ажно то, что среда охватывает как клиентские, так  и серверные компоненты, и использует точно такие же
+версии программного обеспечени€, которые находитс€ на клиента, т.е. по возможности аналогичные рабочей среде.
+
+Otherwise, it may become clear during the implementation process that the system does not work and needs to be reworked.
+¬ противном случае может вы€снитьс€ в процессе внедрени€, что система не работает и нуждаетс€ в переделке.
+
+2) For a test environment, the key area for customization includes
+
+
+   ƒл€ тестовой среды ключева€ область дл€ настройки включает
+
+System and Applications - —истема и приложени€
+Test data - тестовые данные
+
+Database server - сервер базы данных
+Frontal working environment - фронтальна€ рабоча€ среда
+Client operating system - клиентска€ операционна€ система
+browser - браузер
+The hardware includes the server operating system - аппаратное опеспечение включает ќ— сервера
+
+net - сеть
+
+Required documentation such as reference documents / configuration guides / installation guides / user guides
+Ќеобходима€ документаци€,така€ как справочные документы/руководства по конфигурации/руководства по установке/руководства пользовател€ 
