@@ -1,0 +1,17 @@
+1) Build (Сборка)
+После разработки программного модуля разработчики преобразуют исходные коды в автономную форму или исполняемый код. Затем команда разработчиков передает сборку команде тестирования для выполнения тестирования. 
+After developing a code module, developers transform the source code into a stand-alone form or executable code. The development team then hands over the build to the testing team for testing. 
+
+Сборка находится в стадии тестирования; возможно, он уже прошел тестирование или нет. Команда тестирования программного обеспечения проверяет эту сборку. Если он состоит из нескольких ошибок и не соответствует требованиям, команда тестирования программного обеспечения отклоняет эту сборку. Сборки происходят до релиза, и они генерируются чаще.
+The assembly is under testing; it may have already been tested or not. The software testing team validates this assembly. If it contains multiple bugs and does not meet the requirements, the software testing team rejects the build. Builds happen before release and are generated more frequently.
+
+2) Release (Выпуск)
+Релиз является окончательным приложением после завершения разработки и тестирования. После тестирования сборки группа тестирования сертифицирует это программное обеспечение и доставляет его заказчику. 
+The release is the final app after the completion of development and testing. After testing the build, the testing team certifies the software and delivers it to the customer. 
+
+Для одного выпуска возможно иметь несколько сборок. Таким образом, это программное обеспечение доставляется заказчику после завершения этапов разработки и тестирования. Более того, релиз основан на сборках и может иметь несколько сборок.
+It is possible to have multiple builds for one release. Thus, this software is delivered to the customer after the completion of the development and testing stages. Moreover, a release is build-based and can have multiple builds.
+
+3)Differences (Различия)
+Под сборкой понимается автономный программный артефакт, сгенерированный после преобразования исходного кода в исполняемый код, который можно запустить на компьютере. Релиз, с другой стороны, является распространением окончательной версии приложения. Таким образом, эти определения объясняют принципиальную разницу между сборкой и выпуском.
+An build is a stand-alone software artifact that is generated after converting source code into executable code that can be run on a computer. A release, on the other hand, is a distribution of the final version of the app. Thus, these definitions explain the fundamental difference between build and release.
