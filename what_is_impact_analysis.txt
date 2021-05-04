@@ -1,0 +1,40 @@
+1) Impact Analysis (импакт анализ) - это исследование, которое позволяет указать затронутые места (affected areas) в проекте при разработке новой или изменении старой функциональности, а также определить, насколько значительно они были затронуты.
+Impact Analysis is a study that allows you to identify the affected areas in a project when developing new or changing old functionality, as well as determine how significantly they were affected.
+
+Затронутые области требуют большего внимания во время проведения регрессионного тестирования.
+The affected areas require more attention during regression testing.
+
+Отмечу сразу, чтобы не пугать QA: импакт анализ не есть "чтение кода". Он включает в себя и иные способы исследования.
+I would like to note right away so as not to frighten QA: impact analysis is not "reading the code". It includes other methods of research.
+
+
+2) Когда нужно проводить Impact Analysis?   When should you do Impact Analysis?
+
+Импакт анализ может быть полезным в следующих случаях:
+Impact analysis can be useful in the following cases:
+
+есть изменения в требованиях - there are changes in requirements;
+получен запрос на внесение изменений в продукт - A request has been received to make changes to the product;
+ожидается внедрение нового модуля или функциональности в существующий продукт - the introduction of a new module or functionality into an existing product is expected;
+каждый раз, когда есть изменения в существующих модулях или функциональностях продукта - every time there are changes in existing modules or product functionality.
+
+Как мы знаем, в настоящее время продукты становятся всё более большими и комплексными, а компоненты всё чаще зависят друг от друга. Изменение строчки кода в таком проекте может "сломать" абсолютно всё.
+As we know, nowadays, products are becoming larger and more complex, and the components are increasingly dependent on each other. Changing a line of code in such a project can "break" absolutely everything.
+
+3) Для чего нужно проводит Impact Analysis?  What is Impact Analysis for?
+
+Информация о взаимосвязи и взаимном влиянии изменений могут помочь QA:
+Information about the relationship and cross-fertilization of changes can help QA:
+
+сфокусироваться на тестировании функциональности, где изменения были представлены - focus on testing functionality where changes were introduced;
+принять во внимание части проекта, которые были затронуты изменениями и, возможно, пострадали - take into account the parts of the project that were affected by the changes and may have been affected;
+не тратить время на тестирование тех частей проекта, которые не были затронуты изменениями - do not waste time testing those parts of the project that were not affected by the changes.
+
+4) Как провожу Impact Analysis я (Автор)?   How do I(Autor) do Impact Analysis?
+
+Изучаю issue\ticket\bug\change request - I am studying issue \ ticket \ bug \ change request;
+Читаю email переписку - I read email correspondence;
+Разговариваю в разработчиками - Talking to the developers;
+Смотрю на место где было изменение (commit place) - I'm looking at the commit place;
+Смотрю на описание изменения (commit description) - I'm looking at the commit description;
+Смотрю на изменения в коде - I am looking at changes in the code.
