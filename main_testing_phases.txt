@@ -1,0 +1,34 @@
+1) Requirements analysis (Анализ требований)
+
+Подготовка вопросов к БА/менеджеру - Preparing questions for BA/manager
+Определить цели тестирования и приоритеты - Define testing goals and priorities
+Анализ и старт подготовки тестовой среды - Analysis and start of preparation of the test environment
+
+2) Test planning (Тестовое планирование)
+
+Написание тест плана - Writing a test plan
+Составление тестовой стратегии - Drawing up a test strategy
+Оценка времени, ресурсов, нужных для тестирования - Estimation of time, resources required for testing
+
+3) Test cases creation (Написание тестовых случаев)
+
+Написание самих тестовых случаев - Writing the test cases themselves
+Написание атоматизированных тестов - Writing Automated Tests
+Подготовка тестовых данных -  Preparing test data
+
+4) Test environment set up (Подготовка тестовой среды)
+
+Постройка тестовой среды - Building a test environment
+Настройка всех инструментальных средств для тестирования - Setting up all testing tools
+
+5) Test execution (Выполнение тестов)
+
+Тестирование ПО - Software testing
+Нахождение и регистрация дефектов - Finding and registering defects
+Перепроверка дефектов после исправления - Rechecking defects after correction
+
+6) Test closure (Завершение)
+
+Написание сводного отчета о тестировании - - Writing a summary test report 
+Формирование метрик - Formation of metrics
+Подведение итогов о пройденном процессе - Summing up the passed process
