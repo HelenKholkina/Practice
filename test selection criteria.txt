@@ -1,0 +1,93 @@
+Критерии тестирования
+
+1) Требования к идеальному критерию тестирования
+Requirements for an ideal test criterion
+
+• достаточность, т. е. критерий должен показывать, когда некоторое конечное множество тестов достаточно для тестирования данной программы;  sufficiency, that is, the criterion should show when a finite set of tests is sufficient for testing a given program;
+
+• полнота, т. е. в случае ошибки должен существовать тест из множества тестов, удовлетворяющих критерию, который раскрывает ошибку;   completeness, that is, in the event of an error, there must be a test from a set of tests that satisfy the criterion that reveals the error;
+
+• надежность, т. е. любые два множества тестов, удовлетворяющих ему, одновременно должны раскрывать или не раскрывать ошибки программы;   reliability, that is, any two sets of tests that satisfy it must simultaneously disclose or not disclose program errors;
+
+• проверяемость, т. е. критерий должен быть легко проверяемым, например, вычисляемым на тестах.   verifiability, that is, the criterion should be easily verifiable, for example, calculated on tests.
+
+Для нетривиальных классов программ в общем случае не существует полного и надежного критерия, зависящего от программ или спецификаций.
+For non-trivial classes of programs, in the general case, there is no complete and reliable criterion depending on programs or specifications.
+
+Поэтому стремятся к идеальному общему критерию через реальные частные.
+Therefore, they strive for an ideal general criterion through real quotients.
+
+2) Классы критериев - Criteria classes
+• Структурные - Structural
+• Функциональные - Functional
+• Критерии стохастического тестирования формулируются в терминах проверки наличия заданных свойств у тестируемого приложения, средствами проверки некоторой статистической гипотезы.   Criteria for stochastic testing are formulated in terms of checking the presence of specified properties in the application under test, by means of testing some statistical hypothesis.
+• Мутационные критерии ориентированы на проверку свойств программного изделия на основе подхода Монте-Карло.   Mutation criteria are focused on checking the properties of a software product based on the Monte Carlo approach.
+
+3) Структурные критерии - Structural criteria
+- используют модель программы в виде "белого ящика", что предполагает знание исходного текста программы или спецификации программы в виде потокового графа управления. Данный класс критериев часто используется на этапах модульного и интеграционного тестирования (Unit testing, Integration testing)
+- use the program model in the form of a "white box", which implies knowledge of the source code of the program or the program specification in the form of a flow control graph. This class of criteria is often used at the stages of Unit testing, Integration testing.
+
+Структурные критерии базируются на основных элементах УГП, операторах, ветвях и путях.
+Structural criteria are based on the main elements of the EGP, operators, branches and paths.
+
+• Условие критерия тестирования команд (критерий С0) - набор тестов в совокупности должен обеспечить прохождение каждой команды не менее одного раза. Это слабый критерий, он, как правило, используется в больших программных системах, где другие критерии применить невозможно.   Condition of the command testing criterion (criterion C0) - the set of tests in the aggregate must ensure that each command is passed at least once. This is a weak criterion, it is usually used in large software systems where other criteria cannot be applied.
+
+• Условие критерия тестирования ветвей (критерий С1) - набор тестов в совокупности должен обеспечить прохождение каждой ветви не менее одного раза. Это достаточно сильный и при этом экономичный критерий, поскольку множество ветвей в тестируемом приложении конечно и не так уж велико. Данный критерий часто используется в системах автоматизации тестирования.   Condition of the branch testing criterion (C1 criterion) - the set of tests in the aggregate must ensure that each branch is passed at least once. This is a fairly strong yet economical criterion, since the number of branches in the application under test is certainly not that large. This criterion is often used in test automation systems.
+
+• Условие критерия тестирования путей (критерий С2) - набор тестов в совокупности должен обеспечить прохождение каждого пути не менее 1 раз. Если программа содержит цикл (в особенности с неявно заданным числом итераций), то число итераций ограничивается константой (часто - 2, или числом классов выходных путей).   Condition of the path testing criterion (criterion C2) - the set of tests in the aggregate must ensure that each path is traversed at least 1 time. If the program contains a loop (especially with an implicitly specified number of iterations), then the number of iterations is limited to a constant (often - 2, or the number of output path classes).
+
+4) Функциональные критерии - Functional criteria
+- важнейший для программной индустрии критерий тестирования. Он обеспечивает, прежде всего, контроль степени выполнения требований заказчика в программном продукте. Отражают взаимодействие тестируемого приложения с окружением. Используется модель "черного ящика". Проблема:трудоемкость; дело в том, что документы, фиксирующие требования к программному изделию (Software requirement specification, Functional specification и т.п.), достаточно объемны.
+- the most important test criterion for the software industry. It provides, first of all, control of the degree of fulfillment of customer requirements in a software product. Reflect the interaction of the application under test with the environment. The "black box" model is used. Problem: labor intensity; the fact is that the documents fixing the requirements for a software product (Software requirement specification, Functional specification, etc.) are quite voluminous.
+
+• Тестирование пунктов спецификации - набор тестов в совокупности должен обеспечить проверку каждого тестируемого пункта не менее одного раза.   Testing items of specification - the test suite, in aggregate, should ensure that each item under test is tested at least once.
+
+• Тестирование классов входных данных - набор тестов в совокупности должен обеспечить проверку представителя каждого класса входных данных не менее одного раза. При создании тестов классы входных данных сопоставляются с режимами использования тестируемого компонента или подсистемы приложения, что заметно сокращает варианты перебора, учитываемые при разработке тестовых наборов. Следует заметить, что мы вынуждены применять мощные тестовые наборы. Действительно, наряду с ограничениями на величины входных данных, существуют ограничения на величины входных данных во всевозможных комбинациях, в том числе проверка реакций системы на появление ошибок в значениях или структурах входных данных. Учет этого многообразия - процесс трудоемкий, что создает сложности для применения критерия
+Testing Input Classes — The test suite, in aggregate, must ensure that a representative of each input class is tested at least once. When creating tests, the input data classes are mapped to the modes of use of the component under test or the application subsystem, which significantly reduces the enumeration options that are taken into account when developing test cases. It should be noted that we are forced to use powerful test suites. Indeed, along with restrictions on the values ​​of the input data, there are restrictions on the values ​​of the input data in all possible combinations, including checking the system's responses to errors in the values ​​or structures of the input data. Taking this diversity into account is a laborious process, which makes it difficult to apply the criterion
+
+• Тестирование правил - набор тестов в совокупности должен обеспечить проверку каждого правила, если входные и выходные значения описываются набором правил некоторой грамматики.
+Rule Testing - A set of tests in the aggregate should ensure that each rule is tested if the input and output values ​​are described by a set of rules of some grammar.
+
+• Тестирование классов выходных данных - набор тестов в совокупности должен обеспечить проверку представителя каждого выходного класса, при условии, что выходные результаты заранее расклассифицированы, причем отдельные классы результатов учитывают, в том числе, ограничения на ресурсы или на время (time out). При создании тестов классы выходных данных сопоставляются с режимами использования тестируемого компонента или подсистемы, что заметно сокращает варианты перебора, учитываемые при разработке тестовых наборов.
+Testing Output Classes - The test suite, in aggregate, should ensure that a representative of each output class is tested, provided that the outputs are pre-classified, with the individual output classes taking into account, among other things, resource or time out constraints. When creating tests, the classes of the output data are mapped to the modes of use of the component or subsystem under test, which significantly reduces the enumeration options that are taken into account when developing test cases.
+
+• Тестирование функций - набор тестов в совокупности должен обеспечить проверку каждого действия, реализуемого тестируемым модулем, не менее одного раза. Не обеспечивает покрытия части функциональности тестируемого компонента, связанной со структурными и поведенческими свойствами, описание которыхне сосредоточено в отдельных функциях (т.е. описание рассредоточено по компоненту). Критерий тестирования функций объединяет отчасти особенности структурных и функциональных критериев. Он базируется на модели "полупрозрачного ящика", где явно указаны не только входы и выходы тестируемого компонента, но также состав и структура используемых методов (функций, процедур) и классов.
+Functional testing - the set of tests in the aggregate should ensure that each action performed by the module under test is checked at least once. Does not provide coverage of the part of the functionality of the component under test related to structural and behavioral properties, the description of which is not concentrated in individual functions (i.e., the description is scattered throughout the component). The criterion for testing volume functions partly dictates the features of structural and functional criteria. It is based on the "semi-transparent box" model, where not only the inputs and outputs of the component under test, but also the composition and structure of the methods (functions, procedures) and classes used are explicitly indicated.
+
+• Комбинированные критерии для программ и спецификаций - набор тестов в совокупности должен обеспечить проверку всех комбинаций непротиворечивых условий программ и спецификаций не менее одного раза.   Combined Program and Specification Criteria — The test suite, in aggregate, must ensure that all combinations of consistent software and specification conditions are tested at least once.
+
+5) Стохастические критерии - Stochastic criteria
+- применяется при тестировании сложных программных комплексов - когда набор детерминированных тестов имеет громадную мощность. В случаях, когда подобный набор невозможно разработать и исполнить на фазе тестирования.   it is used when testing complex software systems - when a set of deterministic tests has enormous power. In cases where such a set cannot be developed and executed during the testing phase
+
+Необходимо разработать программы - имитаторы случайных последовательностей входных сигналов{x}. Вычислить независимым способом значения {y} для соответствующих входных сигналов {x} и получить тестовый набор (X,Y). Протестировать приложение на тестовом наборе (X,Y), используя два способа контроля результатов:
+It is necessary to develop programs that simulate random sequences of input signals {x}. Calculate in an independent way the values ​​{y} for the corresponding input signals {x} and obtain a test case (X, Y). Test the application on a test case (X, Y) using two ways to control the results:
+
+• Детерминированный контроль - проверка соответствия вычисленного значения y значению y, полученному в результате прогона теста на наборе {x} - случайной последовательности входных сигналов, сгенерированной имитатором.
+Deterministic control - checking the correspondence of the calculated value of y to the value of y obtained as a result of running the test on the set {x} - a random sequence of input signals generated by the simulator.
+
+• Стохастический контроль - проверка соответствия множества значений {y}, полученного в результате прогона тестов на наборе входных значений {x}, заранее известному распределению результатов F(Y).
+Stochastic control - checking the correspondence of the set of values ​​{y}, obtained as a result of running tests on the set of input values ​​{x}, with the previously known distribution of results F (Y).
+
+В этом случае множество Y неизвестно (его вычисление невозможно), но известен закон распределения данного множества.
+In this case, the set Y is unknown (its calculation is impossible), but the distribution law of this set is known.
+
+Критерии стохастического тестирования - Stochastic Testing Criteria
+• Cтатистические методы окончания тестирования - стохастические методы принятия решений о совпадении гипотез о распределении случайных величин. К ним принадлежат широко известные: метод Стьюдента, метод Хи-квадрат.
+Statistical methods of the end of testing - stochastic methods for making decisions about the coincidence of hypotheses about the distribution of random variables. These include the well-known ones: Student's method, Chi-square method.
+
+• Метод оценки скорости выявления ошибок - основан на модели скорости выявления ошибок, согласно которой тестирование прекращается, если оцененный интервал времени между текущей ошибкой и следующей слишком велик для фазы тестирования приложения.
+Error detection rate estimation method - based on the error detection rate model, according to which testing stops if the estimated time interval between the current error and the next is too long for the testing phase of the application.
+
+
+6) Мутационный критерий (класс IV) - Mutation criterion (class IV)
+- Постулируется, что профессиональные программисты пишут сразу почти правильные программы, отличающиеся от правильных мелкими ошибками или описками типа - перестановка местами максимальных значений индексов в описании массивов, ошибки в знаках арифметических операций, занижение или завышение границы цикла на 1 и т.п. Предлагается подход, позволяющий на основе мелких ошибок оценить общее число ошибок, оставшихся в программе.
+It is postulated that professional programmers immediately write almost correct programs that differ from the correct ones by minor errors or misspellings of the type - rearrangement of the maximum values ​​of indices in the description of arrays, errors in the signs of arithmetic operations, underestimation or overestimation of the loop boundary by 1, etc. An approach is proposed that allows, on the basis of small errors, to estimate the total number of errors remaining in the program.
+
+Мутации - мелкие ошибки в программе. Mutations are minor bugs in a program.
+Мутанты - программы, отличающиеся друг от друга мутациями. Mutants are programs that differ from each other by mutations.
+
+Метод мутационного тестирования - в разрабатываемую программу P вносят мутации, т.е. искусственно создают программы-мутанты P1, P2... Затем программа P и ее мутанты тестируются на одном и том же наборе тестов (X,Y).
+Mutation testing method - mutations are introduced into the developed program P, i.e. artificially create mutant programs P1, P2 ... Then program P and its mutants are tested on the same set of tests (X, Y).
+
+Если на наборе (X,Y) подтверждается правильность программы P и, кроме того, выявляются все внесенные в программы-мутанты ошибки, то набор тестов (X,Y) соответствует мутационному критерию, а тестируемая программа объявляется правильной.
+If on the set (X, Y) the correctness of the program P is confirmed and, in addition, all errors introduced into the mutant programs are detected, then the set of tests (X, Y) meets the mutation criterion, and the program under test is declared correct.
