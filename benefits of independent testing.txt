@@ -1,0 +1,35 @@
+Независимое тестирование (аутсорсинг тестирования) - это тестирование силами дополнительно привлечённой компании или группы людей, не участвующих непосредственно в разработке программного обеспечения. Данный подход имеет ряд положительных особенностей, позволяющих существенно повысить качество создаваемого программного продукта.
+Independent testing (outsourcing testing) is testing by an additionally involved company or a group of people who are not directly involved in software development. This approach has a number of positive features that can significantly improve the quality of the created software product.
+
+Из самой идеи независимого тестирования следует, что работа выполняется группой людей, которые не находятся в прямом подчинении руководителя разработки программного проекта. Отсюда следует ряд важных следствий, связанных с организацией труда тестеров. Полностью исключается давление на тестеров со стороны разработчиков, как правило, ведущее к сокращению времени, выделяемого на тестирование. Тестеры работают в нормальном режиме, не подвергаются стрессовым нагрузкам, что резко снижает риски, связанные с некачественным выполнением работ по тестированию. Более того, руководителем разработки не указываются "приоритетные направления тестирования", независимые тестеры смотрят на программный продукт шире и самостоятельнее. Наконец, люди, которые начинают тестировать программу впервые, смотрят на неё "другими" глазами, чем программисты и тестеры из отдела качества компании-разработчика ПО.
+From the very idea of ​​independent testing, it follows that the work is performed by a group of people who are not directly subordinate to the head of the software development project. This implies a number of important consequences related to the organization of testers' work. The pressure on testers from developers, which usually leads to a reduction in the time allocated for testing, is completely eliminated. Testers work in a normal mode, are not exposed to stress loads, which dramatically reduces the risks associated with poor quality testing. Moreover, the development manager does not indicate "priority areas of testing", independent testers look at the software product in a broader and more independent way. Finally, people who start testing a program for the first time look at it with "different" eyes than programmers and testers from the quality department of a software company.
+
+Как правило, сотрудники компании, выполняющей независимое тестирование, обладают большей квалификацией, чем персонал тестеров разработчика ПО. Для этого существуют организационные предпосылки:
+As a rule, the staff of the company that performs independent testing are more qualified than the staff of the software developer's testers. There are organizational prerequisites for this:
+
+* как правило, внутренние тестеры компании-разработчика имеют квалификацию ниже, чем программисты и системные аналитики, получая, соответственно, меньшую зарплату;
+as a rule, the internal testers of the developer company have a lower qualification than programmers and system analysts, receiving, accordingly, a lower salary;
+
+* при увеличении квалификации тестера он переводится в программисты;
+with an increase in the qualifications of a tester, he is transferred to programmers;
+
+* тестер выполняет проверку одного и того же ПО, не расширяя свой кругозор;
+the tester checks the same software without broadening his horizons;
+
+* между выпусками версий ПО тестер недогружен и привлекается к выполнению не связанных с тестированием работ.
+Недостаток обучения и переподготовки персонала является для многих компаний основной причиной невысокого качества проведения тестирования. В противоположность этому персонал компании, проводящей независимое тестирование, специально обучен и мотивирован на нахождение максимального количества дефектов в тестируемом ПО.
+Between software releases, the tester is underutilized and is involved in non-testing work. Lack of training and retraining of personnel is for many companies the main reason for the low quality of testing. In contrast, the staff of the independent testing company is specially trained and motivated to find the maximum number of defects in the tested software.
+
+Мир программирования развивается достаточно динамично, поэтому новые методики, техники тестирования, инструменты автоматизации появляются несколько раз в год. Зачастую отделы внутреннего тестирования не могут позволить себе приобрести дорогостоящий инструмент автоматизации или провести переподготовку персонала. Такая ситуация неминуемо ведёт к снижению качества ПО.
+The world of programming is developing quite dynamically, so new methods, testing techniques, automation tools appear several times a year. Often, internal testing departments cannot afford to purchase an expensive automation tool or retrain staff. This situation inevitably leads to a decrease in the quality of software.
+
+В этих условиях независимое тестирование становится единственным объективным способом оценки качества программного обеспечения, минимизации рисков и неопределенности. Аутсорсинг тестирования позволяет переложить на Исполнителя все заботы, связанные с:
+In these conditions, independent testing becomes the only objective way to assess the quality of software, minimize risks and uncertainties. Testing outsourcing allows you to shift all worries related to:
+
+* Наличием ресурсов для тестирования - Availability of resources for testing;
+* Квалификацией и опытом - Qualifications and experience;
+* Знанием специфики - Knowledge of the specifics;
+* Компетенцией - Competence;
+* Проблемами с персоналом - Personnel problems;
+* Адаптацией к меняющимся требованиям - Adaptation to changing requirements;
+* Снижением времени вывода продукта на рынок - Reduced time to market.
