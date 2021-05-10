@@ -1,0 +1,4 @@
+* Каждый этап испытаний имеет свое назначение - Each test stage has its own purpose
+* Проще управлять поэтапно - Easier to manage in stages
+* Мы можем запустить разные тесты в разных средах - We can run different tests in different environments
+* Производительность и качество тестирования улучшаются с помощью поэтапного тестирования - Testing performance and quality are improved through phased testing
