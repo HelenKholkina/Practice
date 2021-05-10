@@ -1,0 +1,89 @@
+Если вы работаете в сфере тестирования программного обеспечения, вы, должно быть, довольно часто слышали о терминах «shift left». С ростом популярности Agile, BDD и DevOps QA компании быстро продвигаются к тестированию Shift Left для повышения своей производительности.
+
+Так что же такое Shift Left тестирование?
+Shift Left тестирование относится к гибкому процессу тестирования на раннем этапе жизненного цикла разработки . В отличие от традиционного подхода к тестированию, когда тестирование проходит только после завершения процесса разработки, тестирование Shift Left связано с тестированием прямо со стадии разработки для предотвращения ошибок, а не для их последующего обнаружения. Другими словами, это подход к тестированию приложений предназначен для выявления дефектов для более быстрого исправления.
+
+Так как же начать работать с Shift Left тестированием?
+Ниже перечислены 10 шагов, которые объясняют, как начать работу с Shift Left тестированием легко и эффективно, чтобы получить все преимущества:
+
+1. Определение и планирование жизненного цикла тестирования
+Для компаний важно определить и спланировать весь жизненный цикл тестирования до начала фактического процесса разработки. Это поможет разработчикам и тестировщикам понять задачи и ожидаемые результаты проекта. Один из способов сделать это – определить требования к тестированию прямо из этапа планирования проектов и требований.
+
+2. Интеграция процесса разработки и управления проектами с тестированием
+Еще одним важным шагом для начала работы с Shift Left тестированием является интеграция всех процессов разработки, управления проектами и операций с тестированием. Это поможет понять, где и на каких этапах должно пройти тестирование. Это также поможет определить приблизительное время необходимое для завершения цикла тестирования и избежать дублирование задач в процессе реализации теста.
+
+3. Определение стандартов качества и контроля для всех этапов SDLC
+
+Также рекомендуется определять ожидаемые стандарты качества и осуществлять контроль качества на разных этапах SDLC. Это поможет определить, совпадает ли процесс разработки с процессом тестирования и выявить любые отклонения от ожидаемого результата. Это, в свою очередь, поможет в принятии корректирующих действий на соответствующем этапе, что в конечном итоге будет определять общее состояние проекта.
+
+4. Планирование релизов
+Также рекомендуется планировать релизы до того, как вы приступите к Shift Left тестированию. Это поможет определить возможные задержки, а также управлять ресурсами, требуемыми в каждом спринте, для достижения заранее определенных целей. Планирование релизов также поможет команде сфокусироваться и эффективно управлять циклами релиза.
+
+5. Развертывание процесса, основанное на тест-кейсах и фреймворке
+Чтобы плавно перейти к тестированию Shift Left, эксперты также предлагают создавать тест-кейсы и фреймворки, которые в целом покрывают функциональные процессы, а также рабочие шаблоны. Это делается для того, чтобы избежать ошибок во время развертывания приложений со стадии разработки. Разработка тест-кейсов и фреймворков, которые уже проверены в соответствии с функциональным и операционным процессом, помогает сократить количество тест-кейсов, которые будут созданы в будущем, а также ускорит работу SDLC.
+
+6. Внедрение автоматизации тестирования
+
+Чтобы получить максимальную выгоду от тестирования в режиме Shift Left, для компаний рекомендуется использовать автоматизацию тестирования. Благодаря автоматизации тестирования разработчики и тестировщики могут автоматизировать всю сборку для тестирования на всех этапах SDLC (разработка, производство, тестирование, развертывание и т. д.), которые будут способствовать лучшей интеграции между процессами, непрерывной доставке и повышению уверенности в каждом релизе.
+
+7. Стимулирование разработчиков программировать, тестируя свой код в уме
+Важно также побудить всех разработчиков приступить к работе таким образом, что каждый разработчик должен быть ответственным за обеспечение качества созданного кода. Это обеспечит надежность, а также позволит преодолеть “разрыв” между разработчиками и тестировщиками для ускорения завершения цикла тестирования.
+
+8. Определение механизма непрерывной обратной связи
+Также целесообразно определить механизм непрерывной обратной связи, чтобы тестировщики могли непрерывно предоставлять обратную связь разработчикам во время и после этапа разработки. Сообщать о дефектах и достигать желаемого качества будет намного проще, поскольку при непрерывном мониторинге и обратной связи шансы на ошибки, как правило, снижаются.
+
+9. Поощрение тестировщиков в программировании
+Также тсетировщикам рекомендуется улучшать свои знания в области программирования, так как, когда дело доходит до тестирования в спринте, знание программирования может помочь в проведении более глубокого анализа багов. Кроме того, знание программирования может оказаться полезным, если тестировщик захотят внести небольшие изменения в код, не будучи в зависимости от разработчиков.
+
+10. Контроль качества время от времени
+Регулярный контроль качества и общая проверка время от времени важны для успеха любого проекта Shift Left тестирования, поскольку она помогает в раннем обнаружении ошибок и уменьшает вероятность возникновения серьезных дефектов на этапе производства и развертывания. Более того, периодический контроль качества экономит много времени для тестировщиков, таким образом они могут сосредоточиться на качестве, а не на выявлении недостатков.
+
+Наконец, чтобы успешно начать работу с Shift Left тестированием, всем членам команды рекомендуется хорошо выполнять именно свою задачу, так как каждый несет ответственность за высокое качество программного обеспечения.
+
+Завершение
+Тестирование в режиме Shift Left обеспечивает эффективные средства для проведения тестирования параллельно с процессами разработки, позволяя получать приложения быстрее, лучше и качественнее, улучшая взаимодействие между разработчиками и командой тестировщиков. Если процесс тестирования будет реализован должным образом, он может снизить издержки и риски сбоя приложения, обнаружив баги на раннем этапе SDLC, а также уменьшит вероятность исправления ошибок, что позволит компаниям быть более конкурентоспособными и продуктивными в 10 раз.
+
+If you are in the software testing industry, you must have heard the term "left shift" quite often. With the rise of surveillance, Agile, BDD, and DevOps QA companies are rapidly moving towards Shift Left testing to improve their performance.
+
+So what exactly is Shift Left testing?
+Shift Left refers to an agile testing process early in the development lifecycle. In the traditional approach to testing, when testing only takes place after the completion of the development process, Shift Left testing with testing right from the development stage to prevent, rather than to detect them later. In other words, it is an approach to testing an application for ways to fix defects more quickly.
+
+So how do you get started with Shift Left testing?
+Below are 10 steps that explain how to get started with Shift Left testing easily and efficiently to get all the benefits:
+
+1. Defining and planning the test life cycle
+It is important for companies to define and plan the entire testing lifecycle before starting the actual development process. This will help developers and testers understand the objectives and expected results of the project. One way to do this is to define test requirements directly from the Projects and Requirements phase.
+
+2. Integration of the development and project management process with testing
+Another important step to get started with Shift Left - testing is the integration of all development processes, project management and testing operations. This will help you understand where and on which one should be tested. It will also help you determine the approximate time to complete the test and avoid duplication of tasks during the test implementation.
+
+3. Definition of quality and control standards for all stages of the SDLC.
+
+It is also recommended to evaluate expected quality standards and to carry out quality control at different stages of the SDLC. This will help determine if the development process is the same as testing and identify any deviations from the expected result. This, in turn, will assist in taking corrective action at the appropriate stage in determining the overall state of the project.
+
+4. Release planning
+It's also a good idea to schedule releases before you start testing Shift Left. This will help determine the timescales defined in each sprint in order to achieve the predefined goals. Release planning will also help the team focus effectively and manage release cycles.
+
+5. Process deployment based on test cases and framework
+To smoothly move on to testing Shift Left, they also create test cases and frameworks that collectively cover functional processes as well as work patterns. This is done in order to avoid mistakes during the deployment of applications from the development stage. Developing cases and frameworks that have already been tested in accordance with the functional and operational process will reduce the number of test cases that will be created in the future and will also speed up the work of the SDLC.
+
+6. Implementation of testing
+
+To get the most out of testing in Shift Left mode. With the help of testers, it is possible to automate the entire build for testing at all stages of the SDLC (development, production, testing, deployment, etc.), which will be the best integrations between continuous delivery processes and increase confidence in each release.
+
+7. Stimulating programming development by testing your code in your mind
+It is also important to encourage all developers that each developer should be responsible for ensuring the quality of the software that is created. This will provide reliability and bridge the gap between developers and testers to speed up the completion of the test cycle.
+
+8. Determination of the feedback mechanism.
+It is also advisable to define a continuous feedback mechanism. It will be much easier to report defects and achieve the desired quality, as with continuous monitoring and feedback, the chances of errors are generally reduced.
+
+9. Encouraging testers in programming
+It is also recommended that tester improve their programming knowledge, so when it comes to sprinting, programming knowledge can help in conducting a deeper analysis of bugs. In addition, knowledge of programming can be useful if the tester wants to make changes to the code without being dependent on the developers.
+
+10. Quality control from time to time
+Regular quality control and general review from time to time are essential to the success of any Shift Left testing project as it helps in early detection of bugs and reduces the likelihood of serious defects occurring during production and deployment. Moreover, periodic quality control saves a lot of time for testers, so they can focus on quality rather than identifying deficiencies.
+
+Finally, to get started with Shift Left testing successfully, all team members are encouraged to do their job well, since everyone is responsible for the high quality of the software.
+
+Completion
+Shift Left testing provides an effective means of testing in parallel with development processes, allowing you to get applications faster, better and better, improving the interaction between developers and the testing team. If properly implemented, the testing process can reduce the costs and risks of application failure by discovering bugs early in the SDLC, as well as reducing the likelihood of bug fixes, allowing companies to be 10x more competitive and productive.
