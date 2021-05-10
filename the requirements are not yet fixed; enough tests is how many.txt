@@ -1,0 +1,9 @@
+Как вы тестируете продукт, если требования еще не зафиксированы? 
+Если спецификация требований недоступна для продукта, тогда план тестирования может быть создан на основе предположений, сделанных относительно продукта. Но мы должны хорошо документировать все предположения в плане тестирования. 
+How do you test a product if the requirements are not yet fixed?
+If a requirements specification is not available for a product, then a test plan can be created based on the assumptions made about the product. But we need to document all the assumptions well in terms of testing.
+
+Как вы узнаете, было ли создано достаточно тестов для тестирования продукта? 
+Прежде всего, мы проверим, охватывает ли каждое требование хотя бы один Test case. Если да, то можно сказать, что тестовых примеров достаточно для тестирования продукта. 
+How do you know if enough tests have been created to test the product?
+First of all, we will check if each requirement covers at least one Test case. If so, then we can say that there are enough test cases to test the product.
