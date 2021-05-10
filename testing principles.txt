@@ -1,0 +1,36 @@
+1) Тестирование демонстрирует наличие дефектов
+Testing demonstrates the presence of defects
+
+Тестирование может показать, что дефект присутствует, но не может доказать, что дефектов нет. Тестирование снижает вероятность наличия дефектов, находящихся в ПО, но, даже если дефекты не были обнаружены, это не доказывает исправность ПО.
+Testing can show that there is a defect, but it cannot prove that there are no defects. Testing reduces the likelihood of software defects being present, but even if no defects were found, this does not prove the software is working properly.
+
+2) Исчерпывающее тестирование невозможно
+Exhaustive testing is not possible
+
+Полное тестирование с использованием всех комбинаций вводов и предусловий физически невыполнимо, за исключением тривиальных случаев. Вместо исчерпывающего тестирования должны использоваться анализ рисков и расстановка приоритетов, чтобы более точно сфокусировать усилия по тестированию.
+Complete testing using all combinations of inputs and preconditions is not physically feasible except in trivial cases. Risk analysis and prioritization should be used instead of exhaustive testing to more accurately focus testing efforts.
+
+3) Ранее тестирование - Earlier testing
+
+Активность по тестированию должны быть начаты как можно раньше в жизненном цикле разработки ПО или системы, чтобы найти дефекты как можно раньше. Активность должна быть сфокусирована на определенных целях.
+Testing activities should start as early as possible in the software or system development lifecycle to find defects as early as possible. Activity should be focused on specific goals.
+
+4) Скопление дефектов - Accumulation of defects
+
+Небольшее количество модулей содержит большинство дефектов, обнаруженных на этапе предрелизного тестирования, или же демонстрируют наибольшее количество отказов на этапе эксплуатации. Часто можно наблюдать эффект "кучкования дефектов". Происходит это либо из-за того, что определенная область кода особенно сложна и запутана, либо из-за внесенных изменений, которые производят эффект домино. Это знание часто используется для оценки рисков при планировании тестов: тестировщики фокусируются на известных "проблемных зонах".
+A small number of modules contain most of the defects discovered during the pre-release testing stage, or show the highest number of failures during the operational phase. The effect of "clustering defects" can often be observed. This is either due to the fact that a certain area of ​​the code is especially complex and confusing, or because of the changes made that produce a domino effect. This knowledge is often used for risk assessment when planning tests: testers focus on known "problem areas".
+
+5) Парадокс пестицида - The pesticide paradox
+
+Если одни и те же тесты будут прогоняться множество раз, то в конечном счете этот набор тестовых сценариев больше не будет находить новых дефектов. Этого парадокса необходимо избегать, ведь ненахождение дефектов не равно отсутствию дефектов. Для преодоления парадокса тестовые сценарии должны регулярно рецензироваться и корректироваться. Новые тесты должны быть разносторонними, чтобы охватить все компоненты ПН или системы, и найти как можно больше дефектов.
+If the same tests are run multiple times, then eventually that set of test cases will no longer find new defects. This paradox must be avoided, because the absence of defects is not equal to the absence of defects. To overcome this paradox, test cases must be regularly reviewed and revised. New tests should be versatile to cover all components of the PN or system and find as many defects as possible.
+
+6) Тестирование зависит от контекста - Testing is context sensitive
+
+Тестирование выполняется по-разному в зависимости от контекста. Наприме, ПО, в котором критически важна безопасность, тестируется иначе, чем сайт-визитка. Если продукт сложный, то лучше выбрать тест-кейс, а не чек-лист.
+Testing is done differently depending on the context. For example, security-critical software is tested differently than a business card site. If the product is complex, then it is better to choose a test case, not a checklist.
+
+7) Заблуждение об отсутствии ошибок - The no-error fallacy
+
+Обнаружение и исправление дефектов не помогут, если созданная система не подходит пользователю и не соответствует его ожиданиям и потребностям. Когда тестировщик не акцентирует внимание на то, каким продукт должен быть, а сосредотачивается лишь на поиске багов, то появляется риск получить на выходе неправильный продукт.
+Detecting and fixing defects will not help if the created system does not suit the user and does not meet his expectations and needs. When a tester does not focus on what the product should be, but only focuses on finding bugs, then there is a risk of getting the wrong product.
