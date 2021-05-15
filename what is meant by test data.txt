@@ -1,0 +1,46 @@
+1) Что такое тестовые данные? What is test data?
+
+Test Data - это данные, которые используются для выполнения тестов на тестовом ПО. Данные об испытаниях должны быть точными и исчерпывающими для выявления дефектов разработанного или находящегося в стадии разработки программного обеспечения. Таким образом, любая информация, используемая в качестве входных данных для выполнения теста, - это тестовые данные.
+Test Data is data that is used to run tests on test software. Test data must be accurate and comprehensive to identify defects in software developed or under development. Thus, any information used as input to execute a test is test data.
+
+2) Управление тестовыми данными Test data management
+Управление тестовыми данными (TDM) также известно как управление тестовыми данными программного обеспечения. Это процесс планирования, проектирования, хранения и управления процессами и методологиями тестирования качества программного обеспечения.
+Test Data Management (TDM) is also known as software test data management. It is the process of planning, designing, storing and managing software quality testing processes and methodologies.
+
+Основной целью управления тестовыми данными является создание, управление и поддержка исходных кодов приложения или программного обеспечения для целей тестирования.
+The main purpose of test data management is to create, manage and maintain the source code of an application or software for testing purposes.
+
+Ключевые услуги TDM включают в себя маскировку данных (запутывание) конфиденциальной информации и создание синтетических данных. Интеллектуальная маршрутизация, оптимизация и защита данных для их хранения или перемещения в компьютерной системе называется "Кондиционирование данных".
+Key TDM services include data obfuscation (obfuscation) and synthetic data creation. Intelligently routing, optimizing, and protecting data for storage or movement in a computer system is called Data Conditioning.
+
+Управление тестовыми данными позволяет:
+Test data management allows you to:
+
+* Разделение данных испытаний и данных производства - Separation of test data and production data
+* Ведение версии протестированного программного обеспечения отслеживание ошибок - Maintaining the version of the tested software
+error tracking
+* Выполнение других процессов тестирования программного обеспечения - Performing other software testing processes
+* Одной из ключевых целей управления данными тестирования является минимизация и оптимизация размеров данных тестирования программного обеспечения, а также сбор и централизация документации и ресурсов тестирования программного обеспечения. - One of the key goals of test data management is to minimize and optimize the size of software testing data, and to collect and centralize software testing documentation and resources.
+
+4) Задачи управления тестовыми данными:
+   Test Data Management Tasks:
+
+* Определять общие элементы тестовых данных - define common items of test data
+* Старение, маскировка и архивирование данных испытаний - Aging, masking and archiving of test data
+* Создание и внедрение бизнес-правил - Creation and implementation of business rules
+* Построение комплекса автоматизации для подготовки мастер-данных - Building an automation complex for preparing master data
+* Маскирование, архивирование и версионное старение данных - Data masking, archiving and versioned aging
+* Приоритизация и распределение тестовых данных - Prioritization and distribution of test data
+* Генерирование отчетов и приборных панелей для метрик - Generating reports and dashboards for metrics
+* Управление тестовыми данными очень важно в течение жизненного цикла испытания. Количество генерируемых данных огромно для тестирования приложения. Это значительно повышает эффективность продукта. Test data management is very important during the test life cycle. The amount of data generated is huge for testing an application. This greatly improves the efficiency of the product.
+
+5) Инструменты управления тестовыми данными. Test data management tools
+
+В связи с разнообразием данных, которые необходимо хранить, в системе используются различные форматы, типы и местоположения. Таким образом, для хранения данных применяются различные правила. Инструмент для тестирования:
+Due to the variety of data that needs to be stored, the system uses different formats, types and locations. Thus, different rules apply for data storage. Testing tool:
+
+* Определяет на основе этих данных подходящие данные для процесса тестирования - Based on this data, determines the appropriate data for the testing process.
+* Извлекает подмножество данных из выбранных данных испытаний - Retrieves a subset of data from the selected test data.
+* Использует маскировку для конфиденциальных тестовых данных - Uses masking for sensitive test data.
+* Выполняет проверку точности путем сравнения фактических данных с базовыми данными испытаний приложения - Performs an accuracy check by comparing actual data to the underlying test data of the application.
+* Обновляет данные испытаний для повышения эффективности применения - Updates test data to improve application performance.
