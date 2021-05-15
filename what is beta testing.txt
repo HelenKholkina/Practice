@@ -1,0 +1,38 @@
+1) Бета-тестирование (beta testing) – интенсивное использование почти готовой версии продукта с целью выявления максимального числа ошибок в его работе для их последующего устранения перед окончательным выходом (релизом) продукта на рынок, к массовому потребителю. Бета-тестирование представляет собой реально работающую версию программы с полным функционалом. И задача бета-тестов – оценить возможности и стабильность работы программы с точки зрения ее будущих пользователей.
+Beta testing - intensive use of an almost finished product version in order to identify the maximum number of errors in its operation for their subsequent elimination before the final release (release) of the product to the market, to the mass consumer. Beta testing is a real working version of the program with full functionality. And the task of beta tests is to assess the capabilities and stability of the program from the point of view of its future users.
+
+В отличие от альфа-тестирования, проводимого силами штатных разработчиков или тестировщиков, бета-тестирование предполагает привлечение добровольцев из числа обычных будущих пользователей продукта, которым доступна упомянутая предварительная версия продукта (так называемая бета-версия).
+Unlike alpha testing by in-house developers or testers, beta testing involves recruiting volunteers from among the general future users of the product who have access to the said preliminary version of the product (the so-called beta version).
+
+Такими добровольцами (их называют бета-тестерами) часто движет любопытство к новому продукту – любопытство, ради удовлетворения которого они вполне согласны мириться с возможностью испытать последствия еще не найденных (а потому и не исправленных) ошибок. Кроме любопытства, мотивация может быть обусловлена желанием повлиять на процесс разработки и в итоге получать более удовлетворяющий их нужды продукт и многим другим. Очень хорошо, если это люди, которые уже имеют опыт работы с программами такого типа, а еще лучше – с предыдущей версией этой же программы. Обычно у компаний уже есть определенный круг лиц, с которыми они постоянно сотрудничают.
+These volunteers (called beta testers) are often motivated by curiosity about a new product - a curiosity for the satisfaction of which they are quite willing to put up with the possibility of experiencing the consequences of not yet found (and therefore not corrected) bugs. In addition to curiosity, motivation can be driven by the desire to influence the development process and, as a result, get a product that meets their needs and many others. It is very good if these are people who already have experience with programs of this type, and even better - with a previous version of the same program. Usually companies already have a certain circle of people with whom they constantly cooperate.
+
+2) Два вида бета-тестирования:
+   Two types of beta testing:
+
+Закрытым: Программа тестируется в небольшой группе пользователей по приглашениям.
+Closed: The program is tested in a small group of users by invitation.
+
+Открытым: Этот вариант позволяет протестировать приложение в большей группе и получить большой объем обратной связи. Любой пользователь сможет присоединиться к открытому бета-тестированию и отправить личный отзыв.
+Open: This option allows you to test your application with a larger group and get a lot of feedback. Anyone will be able to join the open beta and submit personal feedback. 
+
+Открытое бета-тестирования, например, может использоваться как часть стратегии продвижения продукта на рынок (например, бесплатная раздача бета-версий позволяет привлечь широкое внимание потребителей к окончательной дорогостоящей версии продукта), а также для получения предварительных отзывов о нём от широкого круга будущих пользователей.
+Open beta testing, for example, can be used as part of a product-to-market strategy (for example, giving out beta versions free of charge can attract widespread consumer attention to the final expensive version of a product), as well as to obtain preliminary feedback from a wide range of future users.
+
+Надо сказать, что разработчики не испытывают недостатка в желающих принять участие в такой работе. Такого рода сотрудничество приносит пользу обеим сторонам, ведь исправления проще сделать в процессе работы, а не когда она уже завершена, к тому же замечания и пожелания пользователей позволяют сделать программное обеспечение лучше и качественней.
+(I) must say that the developers do not lack those willing to take part in such work. This kind of cooperation is beneficial to both parties, because it is easier to make corrections in the process of work, and not when it has already been completed, and besides, the comments and wishes of users allow us to make the software better and of higher quality.
+
+3) Преимущества бета-тестирования:
+   Benefits of beta testing:
+
+* Снижает риск выхода продукта из строя посредством валидации клиента. Reduces the risk of product failure through customer validation.
+* Бета-тестирование позволяет компании тестировать инфраструктуру после запуска. Beta testing allows the company to test the infrastructure after launch.
+* Повышает качество продукции благодаря обратной связи с клиентами. Improves product quality through customer feedback.
+* Является экономичным методом сбора данных по сравнению с аналогичными методами. Is an economical method of data collection compared to similar methods.
+* Создает доброжелательность с клиентами и повышает удовлетворенность клиентов. Creates goodwill with customers and increases customer satisfaction.
+
+4) Недостатки бета-тестирования:
+   Disadvantages of beta testing:
+
+* Управление тестированием – проблема. По сравнению с другими типами тестирования, которые обычно выполняются внутри компании в контролируемой среде, бета-тестирование выполняется в реальном мире, где у компании редко есть контроль. Test management is a problem. Compared to other types of testing, which are usually performed internally in a controlled environment, beta testing is performed in the real world, where the company rarely has control.
+* Поиск правильных пользователей бета-версии и поддержание их участия может вызвать трудности. Finding the correct beta users and keeping them engaged can be difficult.
