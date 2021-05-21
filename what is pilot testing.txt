@@ -1,0 +1,7 @@
+1) Экспериментальное (пилотное) тестирование - тестирование, проводимое выбранной группой конечных пользователей перед развертыванием системы, чтобы обеспечить обратную связь о продукте.
+Experimental (Pilot) Testing - Testing conducted by a selected group of end users prior to deploying the system to provide feedback on the product.
+
+2) Отличие от бета-тестирования:
+   Difference from beta testing:
+
+* осуществляется в среде разработки (бета-тестирование в пользовательской среде). Carried out in a development environment (beta testing in a user environment).
