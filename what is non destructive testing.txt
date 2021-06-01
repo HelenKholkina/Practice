@@ -1,0 +1,62 @@
+1) Что такое неразрушающий контроль? What is Non Destructive Testing?
+Неразрушающий контроль - это тип тестирования программного обеспечения, который включает в себя тестирование и правильное взаимодействие с программным приложением. Другими словами, NDT (неразрушающий контроль) также можно назвать положительным тестированием или тестированием счастливого пути. Это дает ожидаемые результаты и доказывает, что программное обеспечение работает так, как ожидалось.
+Non Destructive Testing is a software testing type that involves testing and interacting with the software application correctly. In other words, NDT (Non Destructive Testing) can also be called Positive Testing or Happy path testing. It gives the expected results and proves that the software application is behaving as expected.
+
+Пример: - Ввод правильных данных в модуль входа и проверка, принимает ли он учетные данные, и переход на следующую страницу.
+Example: - Entering the correct data in a login module and checking whether it accepts credentials and navigates to the next page
+
+Чтобы выполнить неразрушающий контроль в приведенном выше примере, введите числовые символы в текстовое поле имени пользователя. Таким образом, мы ввели числовой символ, желаемый результат будет положительным.
+To perform Non destructive testing in the above example, enter numeric characters in the username textbox. As such we have entered the numeric character, the desired outcome will be positive.
+
+2) Зачем нужен неразрушающий контроль (NDT)? Why do Non destructive testing (NDT)?
+
+Основное преимущество метода неразрушающего контроля заключается в том, что он приводит к повышению качества программного обеспечения и исправлению ошибок.
+Чтобы продемонстрировать, что функции программного обеспечения работают в соответствии со спецификацией.
+Выполнено требование проверки производительности
+Чтобы убедиться, что требования конечных пользователей соблюдены
+Проверить, что небольшой фрагмент кода или функциональность работает должным образом и не нарушает связанную функциональность.
+
+The major benefit of NDT method is that it results in improved quality of software and bugs get fixed.
+To demonstrate that software functions are working according to the specification.
+The verify performance requirement has been met
+To verify that the requirements of end users are met
+To check the small section of code or functionality is working as expected and not breaking the related functionality.
+
+3) Когда проводится неразрушающий контроль (NDT)? When Non-destructive testing (NDT) is performed?
+
+Это также первая форма тестирования, которую тестировщик будет выполнять в приложении (т. Е. На начальном этапе SDLC).
+Неразрушающий контроль обычно проводится, когда у нас не хватает времени на тестирование.
+
+It is also the first form of testing that a tester would perform on an application.(i.e., at the initial stage of SDLC)
+Non destructive testing is usually done when we do not have enough time for testing.
+
+4) Стратегия испытаний для неразрушающего контроля Test Strategy for Non destructive testing
+
+Подход к неразрушающему контролю должен быть положительным.
+Цель метода неразрушающего контроля - доказать, что приложение будет работать, предоставляя действительные входные данные.
+Нет специальных требований к проведению неразрушающего контроля.
+Лучшая практика для неразрушающего тестирования - проверить, выполняет ли система то, что она должна делать.
+Стратегия испытаний для неразрушающего контроля
+
+Approach to NonDestructive testing should be positive.
+The intention of NDT technique is to prove that an application will work on giving valid input data.
+There is no special requirement to perform Non destructive testing.
+Best practice for Non destructive testing is to check whether the system does, what it is supposed to do.
+Test Strategy for Non destructive testing
+
+5) Пример
+Приложение имеет 5 модулей, а именно: страницу входа, домашнюю страницу, страницу сведений о пользователе, создание нового пользователя и создание задач и т. Д.
+Предположим, у нас есть ошибка на странице входа в систему, поле имени пользователя принимает менее шести буквенно-цифровых символов. Это противоречит установленным требованиям, согласно которым имя пользователя не должно содержать менее шести символов. Итак, в приведенном выше сценарии это ошибка.
+Теперь об ошибке сообщается команде разработчиков, она исправляется и снова отправляется группе тестирования. Команда тестирования не только проверяет страницу входа, на которой исправлен дефект, но также тестирует другие модули. При тестировании всех модулей он выполняет неразрушающий тип тестирования, просто чтобы убедиться, что все приложение работает правильно.
+
+An application has 5 modules viz, login page, home page, user detail page, new user creation and task creation, etc.
+Suppose we have a bug in the login page, the username field accepts less than six alpha-numeric characters. This is against the set requirements which state that username should not accept less than six characters. So in the above scenario, it is a bug.
+Now the bug is reported to the development team, and it is fixed and again sent back to the testing team. The testing team not only checks the login page where the defect is fixed but also tests the other modules as well. While testing all the modules, it performs the Non-destructive type of testing, just to check the whole application is working properly.
+
+6) Резюме:
+Тестирование программного обеспечения - это процесс, используемый для выявления дефектов в программном обеспечении с целью установления определенного уровня качества.
+NDT означает неразрушающее тестирование, которое проверяет положительные результаты в программном обеспечении, которые соответствуют требованиям.
+
+Summary:
+Software Testing is a process used to reveal defects in software, to establish a specified degree of quality.
+NDT means Non destructive testing, which is verifying positive outcomes in the software that meet the requirments.
