@@ -1,0 +1,78 @@
+1) Что такое разрушающее тестирование? What is Destructive Testing?
+Разрушающее тестирование определяется как тип тестирования программного обеспечения для поиска точек сбоя в программе. Это метод тестирования, при котором приложение намеренно не может проверить надежность приложения и определить точку отказа.
+Destructive Testing is defined as a software testing type to find points of failure in a software program. It is a testing method where an application is intentionally made to fail to check the robustness of the application and identify the point of failure.
+
+В отличие от другого метода тестирования, который проверяет функцию приложения, этот метод проверяет непредсказуемое поведение пользователя в приложении.
+Unlike other testing method which checks the function of an application, this technique will check the unpredictable user behavior within the application.
+
+Для разрушающего тестирования необязательно знать исходные требования к программному продукту. Однако некоторые знания могут помочь в разработке хорошей стратегии тестирования.
+For Destructive Testing, it is not necessary to have the knowledge of the original requirements of a software product. However, some knowledge could help in developing a good testing strateg
+
+2) Зачем проводить разрушающее тестирование? Why to do Destructive Testing?
+Это помогает понять предсказуемое поведение программного обеспечения, когда оно используется ненадлежащим образом.
+Это помогает проверить надежность программного продукта.
+It helps to understand predictable software behavior when the software is put under improper usage
+It helps to check the robustness of a software product.
+
+3) Что вы проверяете в разрушающем тестировании? What you check in Destructive Testing?
+В разрушающем тестировании вы будете проверять следующее:
+In Destructive Testing, you will check for following things
+
+* Правильное поведение программного обеспечения Proper software behavior
+* Неправильное поведение программного обеспечения  Improper software behavior
+* Неправильное использование Improper usage
+* Неправильные входные данные Improper input data
+* Правильные выходные данные Proper output data
+
+4) Как провести разрушающее тестирование? How to do Destructive Testing?
+Разрушающее тестирование включает в себя множество действий, таких как разработка набора тестовых сценариев, выполнение тестовых сценариев, выявление ошибок, закрытие ошибок и предоставление заинтересованным сторонам показателей прохождения или неудачи в конце итерации.
+Destructive Testing involves many activities like designing a set of test scripts, executing test scripts, raising bugs, closing bugs, and providing the pass or fail metrics to stakeholders at the end of the iteration.
+
+Существует множество способов разрушающего тестирования. Давайте посмотрим на некоторые примеры:
+For Destructive Testing, there are numerous ways it can be tested. Let see some Examples:
+
+* Метод анализа точек отказа: это пошаговое руководство по системе, проводящее оценку того, что может пойти не так в различных точках. Для этой стратегии можно воспользоваться помощью BA (Business Analyst).
+Failure point analysis method: It is a walkthrough of the system conducting an assessment of what could go wrong at various points. For this strategy, help from BA (Business Analyst) may be taken.
+* Экспертная проверка тестировщиков: пусть ваши тестовые примеры будут проанализированы или рассмотрены другим тестировщиком, который менее знаком с системой / функцией.
+Tester peer review: Get your test cases analyzed or reviewed by a fellow tester, who is less familiar with the system / function.
+* Бизнес-анализ тестовых примеров: конечные пользователи или эксперты могут придумать множество допустимых сценариев, которые иногда тестировщики, возможно, не учли или пропустили, поскольку все их внимание будет сосредоточено на тестировании требований.
+Business review of test cases: The end users or experts may think of many valid scenarios which sometimes testers may not have considered or missed as their entire focus will be on testing the requirements
+* Проведение исследовательского тестирования с использованием тестовых листов: исследовательское тестирование с использованием тестовых листов поможет определить, что было протестировано, повторить тесты и позволит вам контролировать охват тестированием.
+Conduct exploratory testing, using run sheets: Exploratory testing using run sheets, will help to determine what was tested, repeat the tests and allows you to control your test coverage.
+* Используйте другой источник: вы можете попросить кого-нибудь взломать программный продукт и проанализировать различные сценарии.
+Use other source: You can ask someone to break the software product and analyze for various scenarios.
+
+5) Методы разрушающего контроля Destructive Testing Methods
+Ниже приведены различные методы разрушающего тестирования, используемые в программной инженерии:
+Following are the differenet Destructive Testing Methods used in Software Engineering:
+
+* Альфа / бета-тестирование Alpha / Beta Testing
+* Регрессионное тестирование Regression Testing
+* Тестирование интерфейса Interface Testing
+* Эквивалентное разбиение Equivalence Partitioning
+* Циклическое тестирование Loop Testing
+* Приемочные испытания и т. Д. Acceptance Testing, and so on.
+* Методы разрушающего контроля Destructive Testing Techniques
+
+Ниже приведены методы разрушающего тестирования, которые можно использовать с модификациями:
+Below are the Destructive Testing Techniques that can be used with modifications:
+
+* Тестирование белого ящика White Box Testing
+* Тестирование безопасности Security Testing
+* Тестирование дефектов Defect Testing
+* Дымовые испытания и т. Д. Smoke Testing, and so on
+* При выполнении разрушающего тестирования существуют определенные условия тестирования.
+While performing Destructive Testing, there are certain testing conditions
+
+!!  Программное обеспечение никогда не должно обрабатывать или принимать недопустимые входные данные.
+Независимо от достоверности или правильности входных данных, программное обеспечение всегда должно выдавать правильные выходные данные. 
+The software shall never process or accept invalid input data
+Regardless of the validity or correctness of input data, the software should always produce proper output data
+!!
+
+Резюме:
+В этом методе приложение намеренно создается, чтобы программа не проверила надежность приложения.
+Для разрушающего тестирования необязательно знать исходные требования к программному продукту.
+Summary:
+In this technique, an application is intentionally made to fail the program to check the robustness of the application
+For Destructive Testing, it is not necessary to have the knowledge of the original requirements of a software product.
